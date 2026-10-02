@@ -45,20 +45,3 @@ function raiz() {
     document.getElementById("resultado").innerText = resultado;
 }
 
-const botonSuma = document.getElementById("suma");
-botonSuma.addEventListener("click", suma);
-
-const botonResta = document.getElementById("resta");
-botonResta.addEventListener("click", resta);
-
-const botonMultiplicacion = document.getElementById("multiplicacion");
-botonMultiplicacion.addEventListener("click", multiplicacion);
-
-const botonDivision = document.getElementById("division");
-botonDivision.addEventListener("click", division);
-
-const botonPotencia = document.getElementById("potencia");
-botonPotencia.addEventListener("click", potencia);
-
-const botonRaiz = document.getElementById("raiz");
-botonRaiz.addEventListener("click", raiz);
